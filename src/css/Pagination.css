@@ -1,0 +1,16 @@
+.pagination {
+  display: flex;
+  list-style-type: none;
+}
+
+.pagination__item {
+  margin-right: 20px;
+}
+
+.pagination__chosen {
+  font-weight: bold;
+}
+
+.pagination__button {
+  cursor: pointer;
+}

@@ -1,0 +1,9 @@
+.repository {
+  border: 1px solid #000;
+  border-collapse: collapse;
+}
+
+.repository__item {
+  padding: 10px;
+  border: 1px solid #000;
+}
