@@ -23,3 +23,11 @@ Node.js
 ```
   
 Откройте в браузере localhost:3000
+
+### Запуск в docker
+
+```
+  docker run -dp 3000:3000 elisad5791/dashboard
+```
+
+Откройте в браузере localhost:3000
