@@ -17,7 +17,7 @@ function Pagination() {
         return (
         <li className="pagination__item" key={i}>
           {page == i 
-            ? <span className="pagination__chosen">{i}</span> 
+            ? <span>{i}</span> 
             : <button type="button" onClick={handleClick(i)} className="pagination__button">{i}</button>
           }
         </li>

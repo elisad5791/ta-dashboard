@@ -1,9 +1,10 @@
 import { Link } from "react-router-dom";
+import './css/AppHeader.css';
 
 function AppHeader() {
   return (
-    <header>
-      <Link to="/">Github - Панель управления</Link>
+    <header className="header">
+      <Link to="/" className="header__link">Github - Панель управления</Link>
     </header>
   );
 }

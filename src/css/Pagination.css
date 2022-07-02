@@ -1,16 +1,20 @@
 .pagination {
   display: flex;
   list-style-type: none;
+  justify-content: center;
 }
 
 .pagination__item {
+  display: flex;
+  justify-content: center;
+  align-items: center;
   margin-right: 20px;
-}
-
-.pagination__chosen {
-  font-weight: bold;
+  font-size: 14px;
+  line-height: 20px;
 }
 
 .pagination__button {
+  font-size: 14px;
+  line-height: 20px;
   cursor: pointer;
 }

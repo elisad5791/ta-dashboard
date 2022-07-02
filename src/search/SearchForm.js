@@ -19,8 +19,15 @@ function SearchForm() {
   };
 
   return (
-    <form onSubmit={handleSubmit}>
-      <input type="search" id="search" name="search" value={searchTerm} onChange={handleChange} />
+    <form onSubmit={handleSubmit} className="search">
+      <input 
+        type="search" 
+        id="search" 
+        name="search" 
+        value={searchTerm} 
+        onChange={handleChange} 
+        className="search__input"
+      />
       <input type="submit" value="Найти" className="search__button" />
     </form>   
   );

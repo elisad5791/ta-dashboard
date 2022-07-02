@@ -1,6 +1,8 @@
+import './css/AppFooter.css';
+
 function AppFooter() {
   return (
-    <footer>
+    <footer className="footer">
       <p>&copy; 2022 elisad5791</p>
     </footer>
   );

@@ -1,3 +1,13 @@
+.search {
+  text-align: center;
+}
+
+.search__input {
+  font-size: 20px;
+  padding-left: 10px;
+}
+
 .search__button {
   margin-left: 10px;
+  font-size: 20px;
 }
